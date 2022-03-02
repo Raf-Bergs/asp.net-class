@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MotoGP.Models.Race>
+@using System.Globalization;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    ViewData["Title"] = "Races";
+
+    var vorige = -1;
+}
+
+
+
+@foreach (var item in Model)
+{
+    
+    if(vorige < item.Date.Month)
+    {
+        <h2>@item.Date.ToString("MMMM", new CultureInfo("en-US"))</h2>
+        vorige = item.Date.Month;
+    }
+
+<p>@(Html.DisplayFor(modelItem =>item.Date)) <a  asp-action="ShowRace" asp-controller="Info" asp-route-id="@item.RaceID">@item.Name</a></p>
+}
+
+<p><a asp-controller="Home" asp-action="Menu">Back</a> | <a asp-controller="Info" asp-action="BuildMap">Races on map</a> | <a asp-controller="Info" asp-action="SelectRace">One by one</a></p>

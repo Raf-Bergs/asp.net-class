@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MotoGP.Models.Race>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var races = (List<Race>)ViewData["races"];
+}
+
+
+<map name="workmap">
+    @foreach (var item in Model)
+    {
+        <area href="@Url.Action("ShowRace", "Info", new { id = @item.RaceID})" alt="@item.Name"
+              shape="circle" coords="@item.X,@item.Y,40" />
+    }
+
+</map>
+
+<img src="~/images/banners/map.png" alt="world" usemap="#workmap" width="1024" height="468">
+
+
+<a asp-controller="Home" asp-action="Menu">Back</a>
