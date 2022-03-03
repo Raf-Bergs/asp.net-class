@@ -87,3 +87,7 @@ D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\Sh
 D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
 D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\Movies\List.cshtml.g.cs
 D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
+D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
+D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\Ratings\Create.cshtml.g.cs
+D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\Ratings\Edit.cshtml.g.cs
+D:\College\Y2\SEM2\ASP.NET\www\MvcMovie\MvcMovie\obj\Debug\net5.0\Razor\Views\Ratings\List.cshtml.g.cs

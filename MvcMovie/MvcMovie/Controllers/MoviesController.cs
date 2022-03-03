@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using MvcMovie.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MvcMovie.Controllers
 {
@@ -31,6 +32,17 @@ namespace MvcMovie.Controllers
                             .SingleOrDefault(m => m.MovieID == id);
 
             return View(movie);
+        }
+
+        // GET: Movies/Create
+        public IActionResult Create()
+        {
+            ViewData["Ratings"] =
+                new SelectList(_context.Ratings.OrderBy(r => r.Name),
+                               "RatingID",
+                               "Name");
+
+            return View();
         }
     }
 }
