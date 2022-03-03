@@ -18,17 +18,21 @@ namespace MotoGP.Controllers
         }
         public IActionResult ListRaces()
         {
-            var races = _context.Riders.OrderBy(r => r.Number);
+            var races = _context.Races.OrderBy(r => r.Date);
             ViewData["BannerNr"] = 0;
             return View(races.ToList());
         }
 
         public IActionResult ListRiders()
         {
-            var riders = _context.Riders.OrderBy(r => r.Number);
-            
-            ViewData["BannerNr"] = 0;
-            return View(riders.ToList());
+            ViewData["bannernr"] = 1;
+
+            // Get table content of "Rider" connected to the table "Country"
+            var Riders = _context.Riders
+                // .Include(country => country.Country)
+                .OrderBy(rider => rider.Number);
+
+            return View(Riders.ToList());
         }
 
         public IActionResult BuildMap()
