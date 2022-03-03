@@ -1,0 +1,14 @@
+﻿@model IEnumerable<MotoGP.Models.Rider>
+@using System.Globalization;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    ViewData["Title"] = "Riders";
+
+
+}
+
+@foreach (var item in Model)
+            {
+                <img src="/images/riders/" + @item.Number + ".jpg">
+            }

@@ -4,11 +4,13 @@
 
     ViewData["BannerNr"] = 0;
 
+    string source = "/images/races/" + Model.RaceID + ".jpg";
+
 }
 
 
 
 <h1>Race - @Html.DisplayFor(model => model.Name)</h1>
 <h2>@Html.DisplayFor(model => model.Date) - @Html.DisplayFor(model => model.Country)</h2>
-<img src="/images/races/" + @Html.DisplayFor(model => model.RaceID) + ".jpg"/>
+<img src= @source/>
 <p>@Html.DisplayFor(model => model.Description)</p>

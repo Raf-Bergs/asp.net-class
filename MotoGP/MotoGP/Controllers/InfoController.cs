@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MotoGP.Data;
 using MotoGP.Models;
 using System;
@@ -17,10 +18,17 @@ namespace MotoGP.Controllers
         }
         public IActionResult ListRaces()
         {
-
-            var races = _context.Races.OrderBy(r => r.Date);
+            var races = _context.Riders.OrderBy(r => r.Number);
             ViewData["BannerNr"] = 0;
             return View(races.ToList());
+        }
+
+        public IActionResult ListRiders()
+        {
+            var riders = _context.Riders.OrderBy(r => r.Number);
+            
+            ViewData["BannerNr"] = 0;
+            return View(riders.ToList());
         }
 
         public IActionResult BuildMap()
