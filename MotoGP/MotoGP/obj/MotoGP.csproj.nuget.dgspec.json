@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MotoGP\\MotoGP\\MotoGP.csproj": {}
+    "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MotoGP\\MotoGP\\MotoGP.csproj": {}
   },
   "projects": {
-    "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MotoGP\\MotoGP\\MotoGP.csproj": {
+    "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MotoGP\\MotoGP\\MotoGP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MotoGP\\MotoGP\\MotoGP.csproj",
+        "projectUniqueName": "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MotoGP\\MotoGP\\MotoGP.csproj",
         "projectName": "MotoGP",
-        "projectPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MotoGP\\MotoGP\\MotoGP.csproj",
-        "packagesPath": "C:\\Users\\rafbe\\.nuget\\packages\\",
-        "outputPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MotoGP\\MotoGP\\obj\\",
+        "projectPath": "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MotoGP\\MotoGP\\MotoGP.csproj",
+        "packagesPath": "C:\\Users\\Wendy\\.nuget\\packages\\",
+        "outputPath": "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MotoGP\\MotoGP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rafbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

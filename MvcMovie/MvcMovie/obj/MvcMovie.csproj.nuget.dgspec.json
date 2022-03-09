@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
+    "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
+    "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
-        "packagesPath": "C:\\Users\\rafbe\\.nuget\\packages\\",
-        "outputPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\MvcMovie\\MvcMovie\\obj\\",
+        "projectPath": "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "packagesPath": "C:\\Users\\Wendy\\.nuget\\packages\\",
+        "outputPath": "E:\\College\\Y2\\SEM2\\asp.net\\asp.net-class\\MvcMovie\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rafbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

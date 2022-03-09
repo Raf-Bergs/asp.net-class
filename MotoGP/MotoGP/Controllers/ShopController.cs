@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using MotoGP.Data;
 using MotoGP.Models;
 using System;
@@ -29,10 +30,15 @@ namespace MotoGP.Controllers
             return View();
         }
 
-        public IActionResult ConfirmOrder()
+        public IActionResult ConfirmOrder(int id)
         {
             ViewData["BannerNr"] = 3;
-            return View();
+
+            var confirmation = _context.Tickets
+                   .Include(t => t.Race)
+                   .SingleOrDefault(t => t.TicketID == id);
+
+            return View(confirmation);
         }
 
        
@@ -56,7 +62,7 @@ namespace MotoGP.Controllers
                 ticket.Paid = false;
                 _context.Add(ticket);
                 _context.SaveChanges();
-                return RedirectToAction("ConfirmOrder");
+                return RedirectToAction("ConfirmOrder", new  { id = ticket.TicketID});
             }
             return View(ticket);
         }
