@@ -1,5 +1,6 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using MvcMovie.Models;
@@ -26,6 +27,11 @@ namespace MvcMovie.Controllers
         // GET: Ratings/Create
         public IActionResult Create()
         {
+            ViewData["Ratings"] =
+                new SelectList(_context.Ratings.OrderBy(r => r.Name),
+                               "RatingID",
+                               "Name");
+
             return View();
         }
 

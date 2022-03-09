@@ -183,3 +183,4 @@ E:\College\Y2\SEM2\asp.net\asp.net-class\MotoGP\MotoGP\obj\Debug\net5.0\MotoGP.V
 E:\College\Y2\SEM2\asp.net\asp.net-class\MotoGP\MotoGP\obj\Debug\net5.0\MotoGP.csproj.CopyComplete
 E:\College\Y2\SEM2\asp.net\asp.net-class\MotoGP\MotoGP\obj\Debug\net5.0\MotoGP.genruntimeconfig.cache
 E:\College\Y2\SEM2\asp.net\asp.net-class\MotoGP\MotoGP\obj\Debug\net5.0\Razor\Views\Info\ListRiders.cshtml.g.cs
+D:\College\Y2\SEM2\ASP.NET\www\MotoGP\MotoGP\obj\Debug\net5.0\Razor\Views\Info\ListRiders.cshtml.g.cs
