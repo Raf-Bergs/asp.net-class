@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 
 namespace ConstoUniversity.Controllers
 {
@@ -54,6 +55,7 @@ namespace ConstoUniversity.Controllers
         {
             ViewData["CourseID"] = new SelectList(_context.Courses, "CourseID", "Title");
             ViewData["StudentID"] = new SelectList(_context.Students.OrderBy(s => s.LastName), "ID", "Name");
+            ViewData["DefaultGrade"] = HttpContext.Session.GetString("DefaultGrade");
             return View();
         }
 

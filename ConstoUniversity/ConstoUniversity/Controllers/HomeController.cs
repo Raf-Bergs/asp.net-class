@@ -1,4 +1,5 @@
 ﻿using ConstoUniversity.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -20,6 +21,7 @@ namespace ConstoUniversity.Controllers
 
         public IActionResult Index()
         {
+            HttpContext.Session.SetString("DefaultGrade", "A");
             return View();
         }
 

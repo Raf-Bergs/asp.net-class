@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MusicStore.Data;
 using MusicStore.Models;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,11 @@ namespace MusicStore.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly StoreContext _context;
+        public HomeController(StoreContext context)
+        {
+            _context = context;
+        }
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -20,6 +26,7 @@ namespace MusicStore.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 

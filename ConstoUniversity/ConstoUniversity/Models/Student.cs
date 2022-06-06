@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ContosoUniversity.Models
 {
+
     public class Student
     {
         public int ID { get; set; }
@@ -16,6 +17,7 @@ namespace ContosoUniversity.Models
         [Display(Name = "Enrollment Date")]
         [DataType(DataType.Date)]
         public DateTime EnrollmentDate { get; set; }
+        public string Email { get; set; }
 
         public ICollection<Enrollment> Enrollments { get; set; }
 
@@ -23,8 +25,6 @@ namespace ContosoUniversity.Models
         {
             get { return FirstMidName + ' ' + LastName; }
         }
-
     }
 
 }
-

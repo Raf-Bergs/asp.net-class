@@ -7498,11 +7498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\ConstoUniversity\\ConstoUniversity\\ConstoUniversity.csproj",
+      "projectUniqueName": "D:\\College\\Y2\\SEM2\\ASP.NET\\asp.net-class\\ConstoUniversity\\ConstoUniversity\\ConstoUniversity.csproj",
       "projectName": "ConstoUniversity",
-      "projectPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\ConstoUniversity\\ConstoUniversity\\ConstoUniversity.csproj",
+      "projectPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\asp.net-class\\ConstoUniversity\\ConstoUniversity\\ConstoUniversity.csproj",
       "packagesPath": "C:\\Users\\rafbe\\.nuget\\packages\\",
-      "outputPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\www\\ConstoUniversity\\ConstoUniversity\\obj\\",
+      "outputPath": "D:\\College\\Y2\\SEM2\\ASP.NET\\asp.net-class\\ConstoUniversity\\ConstoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rafbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
